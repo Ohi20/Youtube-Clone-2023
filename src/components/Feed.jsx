@@ -16,11 +16,16 @@ const Feed = () => {
   }, [selectedCategory]);
 
   return (
-    <Stack sx={{ flexDirection: { sx: 'column', md: 'row' } }}>
+    <Stack
+      sx={{
+        flexDirection: { sx: 'column', md: 'row' },
+        borderTop: '2px solid lightgray',
+      }}
+    >
       <Box
         sx={{
           height: { sx: 'auto', md: '92vh' },
-          borderRight: '1px solid #3d3d3d',
+          borderRight: '2px solid lightgray',
           px: { sx: 0, md: 2 },
         }}
       >
@@ -32,6 +37,7 @@ const Feed = () => {
         <Typography
           className="copyright"
           variant="body2"
+          fontWeight="bold"
           sx={{ mt: 1.5, color: '#000' }}
         >
           Copyright © 2023 Youtube
@@ -45,7 +51,8 @@ const Feed = () => {
           mb={2}
           sx={{ color: 'white' }}
         >
-          {selectedCategory} <span style={{ color: '#FC1503' }}>Videos</span>
+          {selectedCategory}{' '}
+          <span style={{ color: 'Black' }}>Trending Videos</span>
         </Typography>
 
         <Videos videos={videos} />
