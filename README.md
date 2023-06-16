@@ -1,10 +1,11 @@
-# Getting Started with Create React App
+# A Youtube Clone Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site Link: [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Available Technology
 
-In the project directory, you can run:
+<li>1.Material UI</li>
+<li>2.Axios</li>
 
 ### `npm start`
 

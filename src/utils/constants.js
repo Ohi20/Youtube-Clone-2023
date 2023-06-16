@@ -1,6 +1,8 @@
 import MusicNoteIcon from '@mui/icons-material/MusicNote';
 import HomeIcon from '@mui/icons-material/Home';
 import CodeIcon from '@mui/icons-material/Code';
+import GamesIcon from '@mui/icons-material/Games';
+import DataObjectIcon from '@mui/icons-material/DataObject';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
 import SportsEsportsIcon from '@mui/icons-material/SportsEsports';
 import LiveTvIcon from '@mui/icons-material/LiveTv';
@@ -18,10 +20,10 @@ export const logo =
 
 export const categories = [
   { name: 'New', icon: <HomeIcon /> },
-  { name: 'Valorant', icon: <CodeIcon /> },
-  { name: 'T-Series', icon: <MusicNoteIcon /> },
-  { name: 'ReactJS', icon: <CodeIcon /> },
-  { name: 'NextJS', icon: <CodeIcon /> },
+  { name: 'Reactjs', icon: <CodeIcon /> },
+  { name: 'CokeStudioBangla', icon: <MusicNoteIcon /> },
+  { name: 'Valorant', icon: <GamesIcon /> },
+  { name: 'NextJS', icon: <DataObjectIcon /> },
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Education', icon: <SchoolIcon /> },
   { name: 'Podcast', icon: <GraphicEqIcon /> },
